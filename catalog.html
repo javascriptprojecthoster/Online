@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Online</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__left">
+          <div class="header__logo">
+            <h2>LOGO</h2>
+          </div>
+        </div>
+        <div class="header__right">
+          <div class="header__top">
+            <p class="header__info">
+              Саратов, 1-й Соколовогорский проезд, д 13а
+            </p>
+            <p class="header__info">mail@mail.com</p>
+            <a
+              class="header__info header__info_number"
+              href="”tel:+79999999999”"
+              >+7 (999) 99-99-999</a
+            >
+            <div class="header__burger">
+              <img src="./img/header/burger.svg" alt="" />
+            </div>
+          </div>
+          <div class="header__bottom">
+            <div class="header__input">
+              <input type="text" placeholder="Поиск по сайту" />
+              <div class="header__search"></div>
+            </div>
+            <a class="header__catalog">Каталог</a>
+            <a class="header__cart">Корзина</a>
+          </div>
+        </div>
+        <div class="header__right_tablet">
+          <div class="header__top">
+            <p class="header__info">
+              Саратов, 1-й Соколовогорский проезд, д 13а
+            </p>
+            <p class="header__info">mail@mail.com</p>
+            <a
+              class="header__info header__info_number"
+              href="”tel:+79999999999”"
+              >+7 (999) 99-99-999</a
+            >
+          </div>
+          <div class="header__middle">
+            <div class="header__input">
+              <input type="text" placeholder="Поиск по сайту" />
+              <div class="header__search"></div>
+            </div>
+            <div class="header__burger">
+              <img src="./img/header/burger.svg" alt="" />
+            </div>
+          </div>
+          <div class="header__bottom">
+            <a class="header__catalog">Каталог</a>
+            <a class="header__cart">Корзина</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="intro">
+      <div class="container">
+        <div class="intro__left">
+          <div class="intro__left_wrapper">
+            <div class="left__items">
+              <div class="left__item">
+                <h3>Лучшие средства для стирки</h3>
+                <p class="intro__subtitle">Новым клиентам скидки 20%</p>
+                <button class="intro__button">ОТКРЫТЬ КАТАЛОГ</button>
+              </div>
+              <div class="left__item">
+                <h3>Лучшие средства для стирки</h3>
+                <p class="intro__subtitle">Новым клиентам скидки 20%</p>
+                <button class="intro__button">ОТКРЫТЬ КАТАЛОГ</button>
+              </div>
+              <div class="left__item">
+                <h3>Лучшие средства для стирки</h3>
+                <p class="intro__subtitle">Новым клиентам скидки 20%</p>
+                <button class="intro__button">ОТКРЫТЬ КАТАЛОГ</button>
+              </div>
+            </div>
+          </div>
+          <div class="intro__dots">
+            <div class="intro__dot intro__dot_active" data-number="1"></div>
+            <div class="intro__dot" data-number="2"></div>
+            <div class="intro__dot" data-number="3"></div>
+          </div>
+        </div>
+        <div class="intro__right">
+          <div class="intro__wrapper">
+            <img src="./img/intro/bg.png" alt="">
+            <img src="./img/intro/bg.png" alt="">
+            <img src="./img/intro/bg.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="path">
+      <div class="container">
+        <a href="./main.html">Главная</a><span>/</span><a href="#" class="path__active">Каталог</a>
+      </div>
+    </section>
+
+    <section class="catalog">
+      <div class="container">
+        <div class="catalog__left">
+          <h3>Категории</h3>
+          <select class="custom-select">
+            <option value="household" selected>Хозяйственная группа</option>
+            <option value="hygiene">Гигиена</option>
+            <option value="food">Элементы питания</option>
+            <option value="lamps">Лампы</option>
+            <option value="lighting">Светильники</option>
+            <option value="tape">Изолента</option>
+            <option value="glue">Клей</option>
+            <option value="rest">Товары для отдыха</option>
+            <option value="care">Уход за одеждой и обувью</option>
+            <option value="fertilizer">Биопрепараты и удобрения</option>
+            <option value="Insecticides">Инсектициды и репелленты</option>
+        </select>
+        
+        <div class="select-wrapper"></div>
+        
+          <div class="catalog__lists">
+            <div class="catalog__list catalog__list_active">Хозяйственная группа</div>
+            <div class="catalog__list">Гигиена</div>
+            <div class="catalog__list">Элементы питания</div>
+            <div class="catalog__list">Лампы</div>
+            <div class="catalog__list">Светильники</div>
+            <div class="catalog__list">Изолента</div>
+            <div class="catalog__list">Клей</div>
+            <div class="catalog__list">Товары для отдыха</div>
+            <div class="catalog__list">Уход за одеждой и обувью</div>
+            <div class="catalog__list">Биопрепараты и удобрения</div>
+            <div class="catalog__list">Инсектициды и репелленты</div>
+          </div>
+        </div>
+        <div class="catalog__right">
+          <h2>Хозяйственная группа</h2>
+          <div class="categories__items">
+            <div class="categories__item item">
+              <div class="item__bg">
+                <img src="./img/categories/1.png" alt="">
+              </div>
+              <div class="item__title">Хозяйственная группа</div>
+              <div class="item__subtitle">Описание</div>
+              <button class="item__button">ОТКРЫТЬ КАТАЛОГ</button>
+            </div>
+            <div class="categories__item item">
+              <div class="item__bg">
+                <img src="./img/categories/2.png" alt="">
+              </div>
+              <div class="item__title">Хозяйственная группа</div>
+              <div class="item__subtitle">Описание</div>
+              <button class="item__button">ОТКРЫТЬ КАТАЛОГ</button>
+            </div>
+            <div class="categories__item item">
+              <div class="item__bg">
+                <img src="./img/categories/3.png" alt="">
+              </div>
+              <div class="item__title">Хозяйственная группа</div>
+              <div class="item__subtitle">Описание</div>
+              <button class="item__button">ОТКРЫТЬ КАТАЛОГ</button>
+            </div>
+            <div class="categories__item item">
+              <div class="item__bg">
+                <img src="./img/categories/3.png" alt="">
+              </div>
+              <div class="item__title">Хозяйственная группа</div>
+              <div class="item__subtitle">Описание</div>
+              <button class="item__button">ОТКРЫТЬ КАТАЛОГ</button>
+            </div>
+            <div class="categories__item item">
+              <div class="item__bg">
+                <img src="./img/categories/4.png" alt="">
+              </div>
+              <div class="item__title">Хозяйственная группа</div>
+              <div class="item__subtitle">Описание</div>
+              <button class="item__button">ОТКРЫТЬ КАТАЛОГ</button>
+            </div>
+            <div class="categories__item item">
+              <div class="item__bg">
+                <img src="./img/categories/5.png" alt="">
+              </div>
+              <div class="item__title">Хозяйственная группа</div>
+              <div class="item__subtitle">Описание</div>
+              <button class="item__button">ОТКРЫТЬ КАТАЛОГ</button>
+            </div>
+          </div>
+          <div class="catalog__about">
+            <p class="about__p about__p_1">Более 10 лет наша компания успешно функционирует, являясь оптовым поставщиком широкого спектра товаров народного потребления, в том числе товаров повседневного спроса, мы готовы предоставить наиболее широкий и сбалансированный ассортимент сопутствующих товаров для дома и семьи.</p>
+            <p class="about__p about__p_2">Накопленный за этот период опыт и высокий профессионализм наших сотрудников, сложившиеся партнерские отношения с клиентами и поставщиками, позволяют нам сегодня, оперативно реагировать на пожелания клиентов, выполнять заказы в кратчайшие сроки, в полном соответствии со всеми требованиями заказчика. Мы не только качественно и в срок делаем поставки, но и своевременно и удачно подберем замену и аналоги, согласно Вашим потребностям и нуждам. В том числе для наших клиентов предусмотрена гибкая система скидок, прием заказов по телефону, постоянные промо-акции, обеспечение информационными и рекламными материалами.</p>
+            <p class="about__p about__p_3">Интересы клиентов для нас стоят всегда на первом месте!</p>
+            <a href="#" class="about__a">Мы приглашаем Вас в число наших партнеров и будем рады взаимовыгодному сотрудничеству!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container contacts">
+      <div class="contacts__wrapper">
+        <div class="contacts__left">
+          <h3>Контакты</h3>
+          <p class="header__info">
+            Саратов, 1-й Соколовогорский проезд, д 13а
+          </p>
+          <p class="header__info">mail@mail.com</p>
+          <a
+            class="header__info header__info_number"
+            href="”tel:+79999999999”"
+            >+7 (999) 99-99-999</a
+          >
+        </div>
+        <div class="contacts__right">
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af89e3bf6ed426381784f9ae3a2cefad63625fcc35a4b7933cbb5dadf5bac4061&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__left">
+            <h2>LOGO</h2>
+          <p class="footer__subtitle">©2023, Comapny name, all rights reserved</p>
+        </div>
+        <div class="footer__right">
+          <p class="footer__title">Подписывайтесь на нас в социальных сетях!</p>
+          <div class="footer__socials">
+            <div class="footer__social">
+              <a href="#">
+                <img src="./img/footer/vk.svg" alt="" />
+              </a>
+            </div>
+            <div class="footer__social">
+              <a href="#">
+                <img src="./img/footer/ok.svg" alt="" />
+              </a>
+            </div>
+            <div class="footer__social">
+              <a href="#">
+                <img src="./img/footer/tg.svg" alt="" />
+              </a>
+            </div>
+            <div class="footer__social">
+              <a href="#">
+                <img src="./img/footer/wt.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <a class="footer__link" href="">created by SmartLine</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/select.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+  </body>
+</html>
